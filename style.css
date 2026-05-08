@@ -1,0 +1,240 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+            background-image: linear-gradient(45deg, #f1cebe, #f49595);
+            background-attachment: fixed;
+}
+
+.navbar{
+    background-color: rgb(255, 231, 227);
+    box-shadow: 3px 3px 10px 0 rgba(0,0,0,.2), -2px -2px 10px 0 #ffffff;
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: rgb(252, 142, 142);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*
+main section */
+
+.main{
+    background: url('tit.png')no-repeat right;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-left: 17%;
+}
+
+.main h2{
+    font-family: fantasy;
+    font-size: 50px;
+}
+.main h1{
+    font-family: fantasy;
+    font-size: 5.5rem;
+    font-weight: 800;
+    letter-spacing: 8px;
+    color: black;
+}
+
+.main h4{
+    color: rgb(68, 68, 68);
+    font-family: Verdana, Tahoma, sans-serif;
+    line-height: 1;
+    border-bottom: 2px solid rgba(209, 50, 50, 0.849);
+    width: 195px;
+}
+
+.about img{
+    box-shadow: 19px -14px 41px 1px rgba(99,23,23,0.71);
+    -webkit-box-shadow: 19px -14px 41px 1px rgba(99,23,23,0.71);
+    -moz-box-shadow: 19px -14px 41px 1px rgba(99,23,23,0.71);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+p{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.progress{
+    background-color: #dfdbda;
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display:flex;
+    height:25px;
+    width:100%;
+}
+
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+.progress p{
+    color:white;
+    font-size: 18px;
+    padding-left: 9px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+.pro-value5{
+    animation: load5 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+.pro-value6{
+    animation: load6 3s normal forwards;
+    border-radius: 50px;
+    background-color: black;
+    height: 29px;
+    width: 0;
+}
+
+@keyframes load1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes load2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 94%;
+    }
+}
+@keyframes load3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 98%;
+    }
+}
+@keyframes load4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 97%;
+    }
+}
+@keyframes load5 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes load6 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+
+
+
+
+
+.card{
+    border:none;
+    outline: none;
+    height:300px;
+    width: 360px;
+    box-shadow: 2px 3px 59px -21px rgba(181,41,41,0.71);
+    -webkit-box-shadow: 2px 3px 59px -21px rgba(181,41,41,0.71);
+    -moz-box-shadow: 2px 3px 59px -21px rgba(181,41,41,0.71);
+}
+.card p{
+    color: gray;
+    font-size: 12px;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color:black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.circle:hover{
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+}
